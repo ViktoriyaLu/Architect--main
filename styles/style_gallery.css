@@ -1,0 +1,155 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+body {
+    width: 1440px;
+}
+.header{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top:  29px;
+    margin-left: 135px;
+    
+    
+}
+ 
+.menu__list {
+width: 700px;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    margin-right:269px ;
+    margin-left: 330px;
+   
+    
+}
+.menu__list-item1 {
+    color: black;
+    font-size: 12px;
+   
+}
+.menu__list-item {
+    color: black;
+    font-size: 12px;
+   
+}
+.title {
+    margin-left:135px ;
+    margin-top: 92px;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 260px);
+    gap:2rem; 
+    margin-left:135px ;
+    margin-right: 135px;
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 135px;
+    margin-top: 60px;
+    margin-right: 1007px;
+    margin-bottom: 110px;
+}
+.footer {
+    background-color:#2C2C2C ;
+}
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+    
+    color:#FFFFFF;
+    padding-left: 116px;
+    padding-top: 58px;
+    padding-right: 218px;
+}
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.contacts__list {
+    
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list-item {
+    color:#FFFFFF;
+   
+}
+.contacts__list-item {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.media__list {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.text1 {
+    font-style: Light;
+    font-size: 64px;
+    line-height: 64px;
+    line-height: 85%;
+    text-align: start;
+    color: #BDBDBD;
+}
+.text2 {
+    font-style: bold;
+    font-size: 64px;
+    line-height: 64px;
+    line-height: 85%;
+    text-align: start;
+    color: #333333;
+}
+.text3 {
+    font-style: bold;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    text-align: start;
+    padding-bottom: 25px;
+}
+.text4 {
+    font-style: medium;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 146%;
+    text-align: start;
+    padding-bottom: 16px;
+}
+.text_footer {
+    padding-left: 591px;
+    padding-top: 24px;
+    padding-right: 694px;
+    padding-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
